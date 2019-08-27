@@ -449,7 +449,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .project-links {
-	margin-left: 21%;
+	margin-left: 12%;
 	margin-bottom: 3%;
-	
+}
+
+.a-links {
+	color: rgb(84,208,221);;
+	margin-left: 15%;
 }
