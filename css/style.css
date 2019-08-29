@@ -457,3 +457,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: rgb(84,208,221);;
 	margin-left: 15%;
 }
+
+.img-responsive {
+	width: 71%;
+	height: auto;
+	margin-left: 12%;
+}
