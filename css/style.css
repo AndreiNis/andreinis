@@ -449,17 +449,114 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .project-links {
-	margin-left: 12%;
+	margin-right: 12%;
 	margin-bottom: 3%;
+	display: inline-flex;
 }
 
-.a-links {
-	color: rgb(84,208,221);;
-	margin-left: 15%;
-}
 
 .img-responsive {
 	width: 71%;
 	height: auto;
 	margin-left: 12%;
+}
+
+.scrol-text {
+	display: inline-block;
+	position: relative;
+	bottom: 190px;
+	margin: 15px;
+	 
+}
+
+.scrol-text:hover {
+	-moz-animation-play-state: paused;
+ -webkit-animation-play-state: paused;
+ animation-play-state: paused;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; 
+    margin: 20px 0;
+    width: 100%;
+    flex-wrap: wrap;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.tech-skill-item {
+    width: 25%;
+	margin-bottom: 50px;
+	
+}
+
+.tech-skill-item h4 {
+    font-weight: 600;
+	font-size:0.9em;
+	color: #222;
+}
+
+.tech-skill-img{
+    height: 50px;
+    
+   
+}
+
+strong {
+  font-weight: bold;
+  font-size: 0.8em;
+
+}
+
+.icon-container{
+    display: inline-block;
+    position: relative;
+    justify-content: space-between;
+}
+
+.project-title{
+    height: 60px;
+}
+
+.tech {
+    height: 120px;
+}
+
+.desc {
+    height: 150px;
+}
+
+.project-text {
+	font-weight: 600;
+	font-size:0.9em;
+	color: whitesmoke;
+}
+
+.project-title {
+	font-weight: 600;
+	font-size:1.0em;
+	color: #54d0dd;
+	height: 30px;
+
+}
+
+
+.a-links {
+	color: rgb(84,208,221);;
+	margin-right: 15%;
+	display: inline;
+}
+
+.img-project {
+	width: 350px;
+    display: inherit;
+    margin-bottom: 20px;
+}
+
+.map-my-jog {
+	margin-top: 50px;
 }

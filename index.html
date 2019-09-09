@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfolio</title>
+<title>Andrei Nistor</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -96,14 +96,14 @@
       <h2>Portfolio</h2>
       <hr>
     </div>
-    <div class="categories">
+    <!-- <div class="categories">
       <ul class="cat">
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
             <li><a href="#" data-filter=".web">Skills</a></li>
             <li><a href="#" data-filter=".photography">Projects</a></li>
-            <!-- <li><a href="#" data-filter=".product">Product Design</a></li> -->
+            <li><a href="#" data-filter=".product">Product Design</a></li> 
           </ol>
         </li>
       </ul>
@@ -223,17 +223,161 @@
         <div class="col-sm-6 col-md-3 col-lg-3 photography">
           <div class="portfolio-item">
             <ul class="project-links"><a class="a-links" target="_blank" href="https://andreinis.github.io/The-4-Year-Cycle/">Live Link</a><a class="a-links" target="_blank" href="https://github.com/AndreiNis/The-4-Year-Cycle">Github</a></ul>
-            <!-- <li><a href="https://mapmyjog.herokuapp.com/#/">Github</a></li> -->
-            <div class="hover-bg"> <a href="img/portfolio/mapmyjog.png" title="Map My Jog" data-lightbox-gallery="gallery1">
-                <div class="hover-text">
-                  <h4>Map My Jog</h4>
+            <div class="hover-bg"><a href="img/portfolio/mapmyjog.png" title="Map My Jog" data-lightbox-gallery="gallery1">
+                <div  class="hover-text" class="hover-desc">
+                  <marquee scrollamount="2" behavior="scroll" direction="up" class="scrol-text">
+                  -Incorporated Google Maps API together with Google Directional Services API in order to give the user the ability to
+                  place multiple waypoints creating a running path.
+                  <br><br>
+                  -Implemented User Authentication by use of session tokens and BCrypt encryption. A user’s password is turned into a
+                  random string and then encrypted before being saved to the database as a unique and secure hash, ensuring user password
+                  is secure.
+                  <br><br>
+                  -Established encoding for waypoints coordinates, saving to the database as a single string, lessening server load and
+                  creating a better user experience by decreasing server load time.
+                  <br><br>
+                  -Improved user experience by incorporating dynamic error handling, resulting in the user being informed and aware of any
+                  incorrect or missing information.
+                  </marquee>
                 </div>
                 <img src="img/portfolio/mapmyjog.png" class="img-responsive" alt="Map My Jog"></a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+    <section id="skill" class="two">
+      <div class="container">
+    
+        <header>
+          <h2>Skills</h2>
+        </header>
+    
+        <div class='img-container'>
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/react.png" alt="React">
+            <h4 class="skill-title">React</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/redux.png" alt="Redux">
+            <h4 class="skill-title">Redux</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/javascript.png" alt="JavaScript">
+            <h4 class="skill-title">JavaScript</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/jquery.png" alt="JQuery">
+            <h4 class="skill-title">JQuery</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/ruby.png" alt="Ruby">
+            <h4 class="skill-title">Ruby</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/rails.png" alt="Ruby on Rails">
+            <h4 class="skill-title">Ruby on Rails</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/postgresql.png" alt="PostgreSQL">
+            <h4 class="skill-title">PostgreSQL</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/html.png" alt="HTML5">
+            <h4 class="skill-title">HTML5</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/d3.png" alt="D3">
+            <h4 class="skill-title">D3</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/css.png" alt="CSS3">
+            <h4 class="skill-title">CSS3</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/git.png" alt="git">
+            <h4 class="skill-title">Git</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/webpack.png" alt="Webpack">
+            <h4 class="skill-title">Webpack</h4>
+          </div>
+    
+          <div class="tech-skill-item">
+            <img class="tech-skill-img" src="./img/portfolio/ajax.png" alt="AJAX">
+            <h4 class="skill-title">AJAX</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="project-container">
+      
+        <header>
+          <h2>Projects</h2>
+        </header>
+
+        <div class="projects-list-container">
+          <div class="4-year-cycle">
+            <h4 class="project-title">4 Year Cycle</h4>
+            <ul class="project-links">
+              <a class="a-links" target="_blank" href="https://andreinis.github.io/The-4-Year-Cycle/">LiveLink</a>
+              <a class="a-links" target="_blank" href="https://github.com/AndreiNis/The-4-Year-Cycle">Github</a>
+            </ul>
+            <img src="img/portfolio/4-year-cycle.png" class="img-project" alt="Map My Jog"></a>
+            <p class="project-text">
+              -Data visualization of Bitcoin historical data showing its price tendency over a four year time using • Javascript and
+              D3.
+              <br><br>
+              -Added zoom feature top-down, starting from year-to-year overview and allowing user to zoom into month, day and time
+              details.
+              <br><br>
+              -Mapped bitcoin data which is fetched from coin index API and saved to a csv file to be parsed by D3.
+              <br><br>
+              -Build a draggable time slice bar at the button, improving user experience, while giving more control once the graph is
+              considerably zoomed in.
+            </p>
+
+          </div>
+
+          <div class="map-my-jog">
+            <h4 class="project-title">Map My Jog</h4>
+            <ul class="project-links">
+              <a class="a-links" target="_blank" href="https://mapmyjog.herokuapp.com/#/">LiveLink</a>
+              <a class="a-links" target="_blank" href="https://github.com/AndreiNis/map_my_jog">Github</a>
+            </ul>
+            <img src="img/portfolio/mapmyjog.png" class="img-project" alt="Map My Jog"></a>
+            <p class="project-text">
+              -Incorporated Google Maps API together with Google Directional Services API in order to give the user the ability to
+              place multiple waypoints creating a running path.
+              <br><br>
+              -Implemented User Authentication by use of session tokens and BCrypt encryption. A user’s password is turned into a
+              random string and then encrypted before being saved to the database as a unique and secure hash, ensuring user
+              password
+              is secure.
+              <br><br>
+              -Established encoding for waypoints coordinates, saving to the database as a single string, lessening server load and
+              creating a better user experience by decreasing server load time.
+              <br><br>
+              -Improved user experience by incorporating dynamic error handling, resulting in the user being informed and aware of
+              any
+              incorrect or missing information.
+            </p>
+          </div>
+        </div>
+    </section>
   </div>
 </div>
 <!-- Contact Section -->
@@ -268,9 +412,9 @@
       </form>
       <div class="social">
         <ul>
-          <li><a href="https://www.linkedin.com/in/andrei-nistor-446913190/"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://angel.co/andrei-nistor-1?public_profile=1"><i class="fa fa-angellist"></i></a></li>
-          <li><a href="https://github.com/AndreiNis"><i class="fa fa-github"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/andrei-nistor-446913190/"><i class="fa fa-linkedin"></i></a></li>
+          <li><a target="_blank" href="https://angel.co/andrei-nistor-1?public_profile=1"><i class="fa fa-angellist"></i></a></li>
+          <li><a target="_blank" href="https://github.com/AndreiNis"><i class="fa fa-github"></i></a></li>
           <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
         </ul>
       </div>
